@@ -6,6 +6,8 @@ h1 {
     color: blue;
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid;
+    margin-top: 10px;
 }
 h1.school {
     color: black;
@@ -27,8 +29,11 @@ p.schools {
 }
 p.school {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   color: blue;
+  padding: 0;
+  padding-top: 15px;
+  margin: 0;
 }
 
 /* Nav bar */
@@ -55,10 +60,22 @@ li.main a {
 li.main a:hover {
     background-color: #111111;
 }
+mark.yellow {
+  background: yellow;
+}
+mark.green {
+  background: #42f45c;
+}
+mark.orange {
+  background: #f4b042;
+}
 
 /* School page */
 ul.school_item {
   list-style-type: square;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+}
+ul.school_item {
+  margin: 10px;
 }
