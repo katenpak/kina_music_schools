@@ -1,6 +1,6 @@
 /* Main page */
 body {
-    background-color: powderblue;
+    /* background-color: powderblue; */
 }
 h1 {
     color: blue;
@@ -69,6 +69,9 @@ mark.green {
 mark.orange {
   background: #f4b042;
 }
+mark.blue {
+  background: powderblue;
+}
 
 /* School page */
 ul.school_item {
@@ -78,4 +81,8 @@ ul.school_item {
 }
 ul.school_item {
   margin: 10px;
+}
+
+li.school_blue {
+    background-color: powderblue;
 }
