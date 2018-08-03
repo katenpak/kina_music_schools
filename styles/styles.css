@@ -1,0 +1,64 @@
+/* Main page */
+body {
+    background-color: powderblue;
+}
+h1 {
+    color: blue;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1.school {
+    color: black;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#section1 {
+  border: 1px solid;
+  padding: 30px;
+}
+p.schools {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+p.school {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: blue;
+}
+
+/* Nav bar */
+ul.main {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li.main {
+    float: left;
+}
+
+li.main a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li.main a:hover {
+    background-color: #111111;
+}
+
+/* School page */
+ul.school_item {
+  list-style-type: square;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
