@@ -6,8 +6,14 @@
   <link rel="stylesheet" href=styles/navbar.css>
   <!-- Load the fa music icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <! Reuse header -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>
+    $(function() {
+      $('#header').load('navbar.html');
+    }
+  </script>
 </head>
   
 <body>
@@ -26,15 +32,16 @@
     <li class="main"><a href="#about">About</a></li>
   </ul>
   -->
-    
+  
   <div class="topnav" id="myTopnav">
   <a href="index.html" class="active">Home</a>
   <a href="repertoire.html">Repertoire</a>
-  <a href="#about">Status</a>
+  <a href="status.html">Status</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
 </div>
+
 
   </section>
   
@@ -45,19 +52,18 @@
     </p>
     
     <p class="schools">
-      <a href=butler.html>Butler School</a><span> </span><i class="fa fa-music" style="font-size:20px;" aria-hidden="true"></i><br> 
-      <a href=shepherd.html>Shepherd School</a><span> </span><i class="fa fa-music" style="font-size:20px;" aria-hidden="true"></i><br> 
-      <a href=nec.html>New England Conservatory of Music</a><span> </span><i class="fa fa-music" style="font-size:20px;" aria-hidden="true"></i><br> 
-      <a href=peabody.html>Peabody Institute</a><span> </span><i class="fa fa-music" style="font-size:20px;" aria-hidden="true"></i><br> 
-      <a href=amherst.html>UMass Amherst</a><span> </span><i class="fa fa-music" style="font-size:20px;" aria-hidden="true"></i><br> 
       <a href=#>Berklee School of Music</a><span> </span><br> 
+      <a href=butler.html>Butler School</a><span> </span><mark class="yellow"><i class="fa fa-music" style="font-size:20px;" aria-hidden="true"></i></mark><br> 
+      <a href=#>Cleveland Institute of Music</a><span> </span><br> 
       <a href=#>Eastman School</a><span> </span><br> 
       <a href=#>Indiana University</a><span> </span><br> 
+      <a href=#>MDW (University of Music and Performing Arts Vienna)</a><span> </span><i class="fa fa-music" style="font-size:20px;" aria-hidden="true"></i><br> 
+      <a href=nec.html>New England Conservatory of Music</a><span> </span><mark class="yellow"><i class="fa fa-music" style="font-size:20px;" aria-hidden="true"></i></mark><br>      
       <a href=nwestern.html>Northwestern Bienen School of Music</a><span> </span><i class="fa fa-music" style="font-size:20px;" aria-hidden="true"></i><br>  
-      <a href=#>Cleveland Institute of Music</a><span> </span><br> 
+      <a href=peabody.html>Peabody Institute</a><span> </span><mark class="yellow"><i class="fa fa-music" style="font-size:20px;" aria-hidden="true"></i></mark><br> 
+      <a href=shepherd.html>Shepherd School</a><span> </span><mark class="yellow"><i class="fa fa-music" style="font-size:20px;" aria-hidden="true"></i></mark><br> 
+      <a href=amherst.html>UMass Amherst</a><span> </span><mark class="yellow"><i class="fa fa-music" style="font-size:20px;" aria-hidden="true"></i></mark><br> 
       <a href=wiener.html>Wiener Musikakademie (Vienna)</a><span> </span><i class="fa fa-music" style="font-size:20px;" aria-hidden="true"></i><br> 
-      <a href=#>MDW (University of Music and Performing Arts Vienna)</a>span> </span><i class="fa fa-music" style="font-size:20px;" aria-hidden="true"></i><br> 
-         
   </p>
    
  </section>
